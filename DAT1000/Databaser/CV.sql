@@ -1,0 +1,22 @@
+DROP SCHEMA IF EXISTS CV;
+CREATE SCHEMA CV;
+USE CV;
+
+CREATE TABLE CV 
+(
+Arbeidssted CHAR(35) PRIMARY KEY,
+Stilling CHAR(35),
+Fra CHAR(10),
+Til CHAR(10)
+);
+
+INSERT INTO CV VALUES ("ALS Laboratory Group Norway AS","Lager og Logistikk Ansvarlig","04.12.2018","20.08.2021");
+INSERT INTO CV VALUES ("NOKAS AS","Vekter","01.09.2013","04.12.2018");
+
+
+SELECT
+	*
+FROM
+	CV
+ORDER BY
+	Fra

@@ -1,0 +1,8 @@
+"var" har globalt scoope
+
+"let" er ikke globalt men kan ikke redefineres. Variabelen kan bare nås innad i samme blokk
+
+"const" kan ikke redefineres eller flyttes, og kan bare bli kalt innad i samme blokk som den er definert.
+
+
+

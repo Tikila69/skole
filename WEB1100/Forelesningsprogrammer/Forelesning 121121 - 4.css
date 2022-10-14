@@ -1,0 +1,14 @@
+header {
+    color: #593d87;
+    
+}
+p.header {
+    color: #593d87;
+}
+
+footer {
+    color: black;
+    font-size: 9pt;
+    line-height: 12pt;
+    text-align: right;
+}

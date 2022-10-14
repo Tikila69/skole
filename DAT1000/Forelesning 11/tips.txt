@@ -1,0 +1,4 @@
+- Vi har du rommene vi har, så det er en statisk megnde med rom.
+- Vi må da fjerne alle rom som er booket med betingelser
+- Vi kan sitter da igjen med alle ledige/mulige rom
+- Konseputell datamodell skal aldri ha atributter

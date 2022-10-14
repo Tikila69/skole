@@ -1,0 +1,104 @@
+body {
+    font: 12pt Verdana, Arial, Georgia, sans-serif;
+    }
+header {
+    width: auto;
+}
+
+.logo {
+    float: left;
+    margin-right: 30px;
+    margin-top: 30;
+}
+
+nav {
+    float:left;
+    margin: 85px 0px 0px 0px;
+    width: 400px;
+    background-color: #628794;
+    border: 1px solid black;
+}
+
+nav ul {
+    margin: 0px;
+    list-style: none;
+    display: inline;
+}
+
+nav li {
+    display: inline;
+    line-height: 1.8em;
+}	
+
+#nav ul li a:link, #nav ul li a:visited {
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 7px 10px 7px 10px;
+    background-color: #628794;
+    color: #ffffff;
+}
+
+#nav ul li a:hover, #nav ul li a:active {
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+    padding: px 10px 7px 10px;
+    background-color: #c6a648;
+    color: #000000;
+}
+
+section {
+    width: auto;
+    float: left;
+    clear: left;
+}
+
+
+
+
+div.imageleft {
+    float:left;
+    clear: all;
+    text-align:center;
+    font-size:9px;
+    font-style:italic;					
+}
+
+div.imageright {
+    position: relative; left: -5%;
+    margin-top: 6%;
+    float:right;
+    clear: all;
+    text-align:center;
+    font-size:9px;
+    font-style:italic;
+    position: relative;						
+}	
+
+.subtext_1 {
+    font-size: 12px;
+    float: left;
+    position: relative;
+    margin-top: -0.5%;
+    margin-left: 2%;
+}
+
+.subtext_2 {
+    font-size: 12px;
+    position: relative; left: 84%;
+    margin-top: 3%;
+}
+
+.list_1 {
+    font-size: 20px;
+    position: relative;
+    margin-left: 20%;
+}
+
+.liste_2 {
+    position: relative;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+}

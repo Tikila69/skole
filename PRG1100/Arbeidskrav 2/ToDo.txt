@@ -1,0 +1,24 @@
+Student:
+    DONE 1. Registering
+    DONE 2. Redigering
+    DONE 3. Sletting
+
+Eksamen:
+    DONE 1. Registrering
+    DONE 2. Redigering
+    DONE 3. Sletting
+
+Eksamensresultat:
+    DONE 1. Registrering
+    DONE 2. Redigering
+    DONE 3. Sletting
+
+Utskrift:
+    DONE 1. Alle eksamener på en dag
+    DONE 2. Alle eksamener i en periode
+    DONE 3. Alle eksamensresultater for et emne, ordnet etter studentnr
+    DONE 4. Karakterstatestikk for en gjennomført eksamen i et emne med          emneopplysninger og opptelling av antall kandidater på hver karakter.
+    DONE 5. Utskrift av alle eksamensresultater med emnenavn og antall studiepoeng for en student (hvor en kan ha ett eller flere eksamensresultater i samme emne), ordnet etter eksamensdato.
+    DONE 6. utskrift av vitnemål for en student. Ved flere avlagte eksamener i samme emne skal kun ett/beste resultat komme på vitnemålet. Emnene sorteres på fagnivå og emnekode, dvs alle emnekoder i 1000-serien sorteres og kommer før alle emnekodene i 2000-serien osv. Vitnemålet må ha en summering av antall oppnådde studiepoeng for beståtte emner 
+ 
+ 
