@@ -87,7 +87,6 @@ public class Grensesnitt {
     }
 
     public void registrerKjøretøy() {
-
         navn = JOptionPane.showInputDialog("Hvem skal bilen registreres på?");
         regnr = JOptionPane.showInputDialog("Registreringsnummer:");
         modell = JOptionPane.showInputDialog("Modell");

@@ -1,7 +1,5 @@
 package DemoAssosiasjoner;
 
-import java.util.Objects;
-
 public class Kjøretøy implements Comparable<Kjøretøy>{
     private String regnr;
     private String modell;
