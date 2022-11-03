@@ -1,38 +1,38 @@
-public class Hare extends Dyr{
+import java.util.Comparator;
 
+public class Hare extends Dyr implements Comparable<Hare> {
+
+    String harenr;
     String type;
     String farge;
 
-    public Hare(String kjønn, Double lengde, Double vekt, String type, String farge) {
-        super(kjønn, lengde, vekt);
+
+    public Hare(String kjønn, Double lengde, Double vekt, String dato, String sted, String harenr, String type, String farge) {
+        super(kjønn, lengde, vekt, dato, sted);
+        this.harenr = harenr;
         this.type = type;
         this.farge = farge;
     }
 
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public String getFarge() {
-        return farge;
-    }
-
-    public void setFarge(String farge) {
-        this.farge = farge;
+    public String getHarenr() {
+        return harenr;
     }
 
     @Override
     public String toString() {
-        return "Hare{" +
-                "type='" + type + '\'' +
-                ", farge='" + farge + '\'' +
-                ", kjønn='" + kjønn + '\'' +
-                ", lengde=" + lengde +
-                ", vekt=" + vekt +
-                '}';
+        return "harenr: " + harenr +
+                ", " + type +
+                ", " + farge +
+                ", " + kjønn +
+                ", " + lengde +
+                ", " + vekt +
+                ", " + dato +
+                ", " + sted;
     }
+
+    public int compareTo(Hare hare) {
+        return this.harenr.compareTo(hare.getHarenr());
+    }
+
+
 }
