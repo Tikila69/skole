@@ -18,6 +18,11 @@ public class Hare extends Dyr implements Comparable<Hare> {
         return harenr;
     }
 
+    public String getKjønn(String harenr) {
+        return kjønn;
+    }
+
+
     @Override
     public String toString() {
         return "harenr: " + harenr +
@@ -31,8 +36,7 @@ public class Hare extends Dyr implements Comparable<Hare> {
     }
 
     public int compareTo(Hare hare) {
+
         return this.harenr.compareTo(hare.getHarenr());
     }
-
-
 }

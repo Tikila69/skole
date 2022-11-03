@@ -13,6 +13,10 @@ public class Gaupe extends Dyr implements Comparable<Gaupe> {
         return gaupenr;
     }
 
+    public String getKjønn(String gaupenr) {
+        return kjønn;
+    }
+
 
     @Override
     public String toString() {

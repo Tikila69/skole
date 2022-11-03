@@ -119,13 +119,12 @@ public class Grensesnitt {
         harenr =JOptionPane.showInputDialog("Hare ID:");
         dato = JOptionPane.showInputDialog("Dato:");
         sted = JOptionPane.showInputDialog("sted:");
-        kjønn = JOptionPane.showInputDialog("Kjønn:");
         lengde = Double.parseDouble(JOptionPane.showInputDialog("Lengde:"));
         vekt = Double.parseDouble(JOptionPane.showInputDialog("Vekt:"));
         type = JOptionPane.showInputDialog("Type:");
         farge = JOptionPane.showInputDialog("Farge:");
 
-        hare = new Hare(kjønn, lengde, vekt, dato, sted, harenr, type, farge);
+        hare = new Hare(hare.getKjønn(harenr), lengde, vekt, dato, sted, harenr, type, farge);
         kontroll.gjenfangstHare(hare);
 
         JOptionPane.showMessageDialog(null,"Hare registrert: "+ hare.toString());
@@ -136,12 +135,11 @@ public class Grensesnitt {
         gaupenr =JOptionPane.showInputDialog("Gaupe ID");
         dato = JOptionPane.showInputDialog("Dato:");
         sted = JOptionPane.showInputDialog("sted:");
-        kjønn = JOptionPane.showInputDialog("Kjønn:");
         lengde = Double.parseDouble(JOptionPane.showInputDialog("Lengde:"));
         vekt = Double.parseDouble(JOptionPane.showInputDialog("Vekt:"));
         øretuster = Double.parseDouble(JOptionPane.showInputDialog("Øretustlengde:"));
 
-        gaupe = new Gaupe(kjønn, lengde, vekt, dato, sted, gaupenr, øretuster);
+        gaupe = new Gaupe(gaupe.getKjønn(gaupenr), lengde, vekt, dato, sted, gaupenr, øretuster);
         kontroll.gjenfangstGaupe(gaupe);
 
         JOptionPane.showMessageDialog(null,"Gaupe registrert: "+gaupe.toString());

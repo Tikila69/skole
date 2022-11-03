@@ -93,7 +93,6 @@ public class Kontroll {
                     filtrertAlleDyr.add(hare2);
                 }
             }
-            System.out.println("Alle dyr så langt: " + filtrertAlleDyr);
         }
         return filtrertAlleDyr;
     }
