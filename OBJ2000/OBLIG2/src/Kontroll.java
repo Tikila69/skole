@@ -46,7 +46,8 @@ public class Kontroll {
     public ArrayList<Gaupe> getGjenfangstGaupeSortert (String gaupenr) {
         ArrayList<Gaupe> filterGaupe = new ArrayList<>();
 
-        List<Gaupe> filtrert = gjenfangstGaupeArrayList.stream().filter(gaupe -> gaupe.getGaupenr().equals(gaupenr)).collect(Collectors.toList());
+        List<Gaupe> filtrert = gjenfangstGaupeArrayList.stream().filter(
+                gaupe -> gaupe.getGaupenr().equals(gaupenr)).collect(Collectors.toList());
         for (Gaupe gaupe : filtrert) {
             filterGaupe.add(gaupe);
         }
@@ -56,7 +57,8 @@ public class Kontroll {
     public ArrayList<Hare> getGjenfangstHareSortert (String harenr) {
         ArrayList<Hare> filtrertHare = new ArrayList<>();
 
-        List<Hare> filtrert =  gjenfangstHareArrayList.stream().filter(hare -> hare.getHarenr().equals(harenr)).collect(Collectors.toList());
+        List<Hare> filtrert =  gjenfangstHareArrayList.stream().filter(
+                hare -> hare.getHarenr().equals(harenr)).collect(Collectors.toList());
         for (Hare hare : filtrert) {
             filtrertHare.add(hare);
         }
