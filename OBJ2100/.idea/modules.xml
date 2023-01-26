@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/forelesning3/DemoBinaryTree/DemoBinaryTree.iml" filepath="$PROJECT_DIR$/forelesning3/DemoBinaryTree/DemoBinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/forelesning2/DemoFakultet/DemoFakultet.iml" filepath="$PROJECT_DIR$/forelesning2/DemoFakultet/DemoFakultet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forelesning3/DemoHashFunksjoner/DemoHashFunksjoner.iml" filepath="$PROJECT_DIR$/forelesning3/DemoHashFunksjoner/DemoHashFunksjoner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forelesning3/DemoTreeFunksjon/DemoTreeFunksjon.iml" filepath="$PROJECT_DIR$/forelesning3/DemoTreeFunksjon/DemoTreeFunksjon.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OBJ2100.iml" filepath="$PROJECT_DIR$/.idea/OBJ2100.iml" />
       <module fileurl="file://$PROJECT_DIR$/forelesning2/Potensering/Potensering.iml" filepath="$PROJECT_DIR$/forelesning2/Potensering/Potensering.iml" />
       <module fileurl="file://$PROJECT_DIR$/eksamen2022/eksamen2022.iml" filepath="$PROJECT_DIR$/eksamen2022/eksamen2022.iml" />
       <module fileurl="file://$PROJECT_DIR$/forelesning1/forelesning1.iml" filepath="$PROJECT_DIR$/forelesning1/forelesning1.iml" />
       <module fileurl="file://$PROJECT_DIR$/forelesning2/forelesning2.iml" filepath="$PROJECT_DIR$/forelesning2/forelesning2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forelesning3/forelesning3.iml" filepath="$PROJECT_DIR$/forelesning3/forelesning3.iml" />
       <module fileurl="file://$PROJECT_DIR$/forelesning2/oppgave1/oppgave1.iml" filepath="$PROJECT_DIR$/forelesning2/oppgave1/oppgave1.iml" />
       <module fileurl="file://$PROJECT_DIR$/forelesning2/oppgaveStrom/oppgaveStrom.iml" filepath="$PROJECT_DIR$/forelesning2/oppgaveStrom/oppgaveStrom.iml" />
     </modules>

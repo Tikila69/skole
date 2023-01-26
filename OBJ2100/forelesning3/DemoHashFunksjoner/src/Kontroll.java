@@ -2,7 +2,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 
-public class Kontorll {
+public class Kontroll {
     private HashMap<String, Person> personer = new HashMap<>();
 
     public void settInn(Person person) {
@@ -22,4 +22,7 @@ public class Kontorll {
         Collection<Person> verdier = personer.values();
         return verdier.iterator();
     }
+
+
+
 }
