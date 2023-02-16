@@ -1,3 +1,5 @@
+package Applikasjon;
+
 import java.text.Collator;
 
 public class Bil implements Comparable<Bil>{
@@ -48,7 +50,7 @@ public class Bil implements Comparable<Bil>{
 
     @Override
     public String toString() {
-        return "Bil{" +
+        return "Applikasjon.Bil{" +
                 "regnr='" + regnr + '\'' +
                 ", merke='" + merke + '\'' +
                 ", modell='" + modell + '\'' +
@@ -64,6 +66,6 @@ public class Bil implements Comparable<Bil>{
     }
 
     public String toFile(){
-        return regnr + ";"+merke+";"+modell+";"eier.getEnavn();
+        return regnr + ";"+merke+";"+modell+";"+eier.getEnavn();
     }
 }

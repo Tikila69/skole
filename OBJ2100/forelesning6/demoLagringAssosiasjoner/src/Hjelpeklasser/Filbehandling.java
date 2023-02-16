@@ -1,4 +1,4 @@
-package hjelpeklasser;
+package Hjelpeklasser;
 
 import java.io.*;
 
