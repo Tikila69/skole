@@ -1,8 +1,9 @@
 package Applikasjon;
 
+import java.io.Serializable;
 import java.text.Collator;
 
-public class Postadresse implements Comparable<Postadresse>{
+public class Postadresse implements Serializable, Comparable<Postadresse>{
     private String postnr, poststed;
     private final static Collator KOLLATOR = Collator.getInstance();
 

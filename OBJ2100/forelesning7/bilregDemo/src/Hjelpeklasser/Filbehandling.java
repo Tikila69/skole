@@ -25,4 +25,26 @@ public class Filbehandling {
             return null;
         }
     }
+
+    public static ObjectOutputStream lagSkriveforbindelseBin (String filnavn) {
+        try {
+            FileOutputStream utstrøm  = new FileOutputStream(filnavn);
+            ObjectOutputStream ut = new ObjectOutputStream(utstrøm);
+            return ut;
+        }
+        catch (IOException e){
+            return null;
+        }
+    }
+
+    public static ObjectInputStream lagLeseforbindelseBin(String filnavn){
+        try {
+            FileInputStream innstrøm = new FileInputStream(filnavn);
+            ObjectInputStream inn = new ObjectInputStream(innstrøm);
+            return inn;
+        }
+        catch (IOException e){
+            return null;
+        }
+    }
 }

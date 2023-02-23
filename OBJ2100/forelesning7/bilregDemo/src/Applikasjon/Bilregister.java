@@ -3,7 +3,8 @@ package Applikasjon;
 import Hjelpeklasser.Filbehandling;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,9 +14,9 @@ public class Bilregister {
     List<Person> personer = new ArrayList<Person>();
     List<Bil> biler = new ArrayList<Bil>();
     List<Postadresse> postadresser = new ArrayList<Postadresse>();
-    String bilfil = "biler.csv";
-    String personfil = "personfil.csv";
-    String postadressefil = "postadressefil.csv";
+    String bilfil = "biler.dat";
+    String personfil = "personfil.dat";
+    String postadressefil = "postadressefil.dat";
 
     public void regBil(Bil b){
         biler.add(b);
@@ -59,7 +60,7 @@ public class Bilregister {
         }
         return null;
     }
-
+/*
     //Lagringsmetoder:
     public void skrivPersoner(String filnavn) throws Exception{
         try {
@@ -158,10 +159,10 @@ public class Bilregister {
             throw new Exception("Kan ikke lese bilfil");
         }
     }
-
+*/
     public void lesAlleFiler() throws Exception{
         try {
-            lesPostadresser(postadressefil);
+            lesPostadreser(postadressefil);
             lesPersoner(personfil);
             lesBiler(bilfil);
         }catch (Exception e){
@@ -171,11 +172,75 @@ public class Bilregister {
 
     public void skrivAlleFiler() throws Exception{
         try {
-            skrivPostadresser(postadressefil);
-            skrivPersoner(personfil);
-            skrivBiler(bilfil);
+            lagrePostadresser(postadressefil);
+            lagrePersoner(personfil);
+            lagreBiler(bilfil);
         }catch (Exception e){
             throw e;
+        }
+    }
+
+
+    public void lagrePostadresser(String filnavn) {
+        try {
+            ObjectOutputStream utfil = Filbehandling.lagSkriveforbindelseBin(filnavn);
+            utfil.writeObject(postadresser);
+            utfil.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void lesPostadreser(String filnavn) {
+        postadresser.clear();
+        try {
+            ObjectInputStream innfil = Filbehandling.lagLeseforbindelseBin(filnavn);
+            postadresser = (ArrayList<Postadresse>)innfil.readObject();
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void lagreBiler(String filnavn){
+        try {
+            ObjectOutputStream utfil = Filbehandling.lagSkriveforbindelseBin(filnavn);
+            utfil.writeObject(biler);
+            utfil.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void lesBiler(String filnavn){
+        biler.clear();
+        try {
+            ObjectInputStream innfil = Filbehandling.lagLeseforbindelseBin(filnavn);
+            biler = (ArrayList<Bil>)innfil.readObject();
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void lagrePersoner(String filnavn){
+        try {
+            ObjectOutputStream utfil = Filbehandling.lagSkriveforbindelseBin(filnavn);
+            utfil.writeObject(personer);
+            utfil.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void lesPersoner(String filnavn){
+        personer.clear();
+        try {
+            ObjectInputStream innfil = Filbehandling.lagLeseforbindelseBin(filnavn);
+            personer = (ArrayList<Person>)innfil.readObject();
+
+        }catch (Exception e){
+            e.printStackTrace();
         }
     }
 }

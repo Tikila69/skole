@@ -1,8 +1,9 @@
 package Applikasjon;
 
+import java.io.Serializable;
 import java.text.Collator;
 
-public class Bil implements Comparable<Bil>{
+public class Bil implements Serializable, Comparable<Bil>{
     private String regnr, merke, modell;
     //referanse til eieren:
     private Person eier;

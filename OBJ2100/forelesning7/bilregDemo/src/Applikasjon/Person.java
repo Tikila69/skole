@@ -1,10 +1,11 @@
 package Applikasjon;
 
+import java.io.Serializable;
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Person implements Comparable<Person>{
+public class Person implements Serializable, Comparable<Person>{
     private String enavn,fnavn,gateadresse;
     //Referanse til postadresseobjekt:
     private Postadresse postadresse;
