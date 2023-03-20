@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Ansattforhold {
+public enum Ansattforhold {
+    FAST, MIDLERTIDIG, PROSJEKT, SLUTTET;
 }
