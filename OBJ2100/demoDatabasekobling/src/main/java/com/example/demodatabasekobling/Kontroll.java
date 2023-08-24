@@ -1,5 +1,10 @@
 package com.example.demodatabasekobling;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
 public class Kontroll {
     private String databasenavn = "jdbc:mysql:localhost:3306/hobbyhuset";
     private String databasedriver = "com.mysql.jbdc.Driver";
@@ -10,7 +15,7 @@ public class Kontroll {
     //metode for tilkobling:
     public void lagForbindelse() throws Exception {
         try {
-            forbindelse = DriverManager.getConnection(databasenavn,"root","Icastforeball20");
+            forbindelse = DriverManager.getConnection(databasenavn,"root","Icastfireball20");
         }
         catch (Exception e) {
             throw new Exception("Kan ikke åpne database");
@@ -36,7 +41,6 @@ public class Kontroll {
         }
         catch (Exception e) {
             throw new Exception("kan ikke åpne databasetabell");
-            return null;
         }
 
     }
