@@ -3,16 +3,17 @@
 
 #Definere input
 
-tall=0
-minst=int(input('Skriv inn det første tallet: '))
-minstN=1
-print()
+tall=int(input('Skriv inn det første tallet: '))
+
+
+minst=tall
 for n in range (1,5,1):
     tall=int(input('Skriv inn det neste tallet: '))
     if tall<minst:
         minst=tall
-        minstN=n+1
-    print()
 
 
-print('Det minste tallet er:',minst,'og har posessjon:',minstN)
+print('Det minste tallet er:',minst)
+
+
+

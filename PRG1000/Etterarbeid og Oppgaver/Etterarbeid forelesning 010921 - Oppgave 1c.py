@@ -9,6 +9,13 @@
 #Dersom det er 20 deltakere eller flere er tillegget pr deltaker 350 kr.
 #Lag et program som beregner og skriver ut total pris basert på antall deltakere som inndata.
 
+
+
+
+
+
+
+
 #Definer variabler
 leie=2500
 tillegg=420
