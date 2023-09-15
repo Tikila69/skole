@@ -13,4 +13,6 @@ FROM sales;
 DROP table IF EXISTS sales;
 
 SELECT *
-FROM dim_date
+FROM dim_date;
+
+CREATE DATABASE coffeemerchent_spoon_dw2;
