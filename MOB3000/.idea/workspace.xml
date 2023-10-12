@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32a441a8-f6fd-4109-a0bb-60d32d12262b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../OBJ2100/demoDatabasekobling/src/main/java/com/example/demodatabasekobling/Grensesnitt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/demoDatabasekobling/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OBJ2100/demoDatabasekobling/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/demoDatabasekobling/src/main/java/com/example/demodatabasekobling/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/demoDatabasekobling/src/main/java/com/example/demodatabasekobling/Kontroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OBJ2100/demoDatabasekobling/src/main/java/com/example/demodatabasekobling/Kontroll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/DemoBinaryTree/Binærtre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/DemoBinaryTree/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/DemoBinaryTree/Testklient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/DemoFakultet/Fakultettest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/Lagringsdemo/Lagredemo/Kontroll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/Lagringsdemo/Lagredemo/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/Lagringsdemo/Lagredemo/Testklient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/Lagringsdemo/applikasjon/Kontroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OBJ2100/out/production/Lagringsdemo/applikasjon/Kontroll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/Lagringsdemo/applikasjon/Testklient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OBJ2100/out/production/Lagringsdemo/applikasjon/Testklient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/Potensering/Impotenstest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/bilregDemo/Applikasjon/Bil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/bilregDemo/Applikasjon/Bilregister.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/bilregDemo/Applikasjon/Grensensitt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/bilregDemo/Applikasjon/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/bilregDemo/Applikasjon/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/bilregDemo/Applikasjon/Postadresse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/bilregDemo/Hjelpeklasser/Filbehandling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/forelesning4/Kontroll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/forelesning4/Testklient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/forelesning4/Vare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJ2100/out/production/oppgaveStrom/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OBJ2100/out/production/oppgaveStrom/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2U9dz12iWNuQ09sVR6pn2fvNYLu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,7 +31,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/Didri/Documents/GitHub/skole/MyFirstApplication",
+    "last_opened_file_path": "C:/Users/Didri/Documents/GitHub/mob3000",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
