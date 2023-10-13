@@ -1,7 +1,10 @@
 import cv2
 
+pathImg = "C:\\Users\\Didri\\Documents\\GitHub\\skole\\AI3000R\\Day 7 - Practice\\flaske.jpg"
+pathVid = "C:\\Users\\Didri\\Documents\\GitHub\\skole\\AI3000R\\Day 7 - Practice\\flaske.mp4"
+
 # Load the reference image 
-reference_image = cv2.imread('cup.jpg', cv2.IMREAD_GRAYSCALE)
+reference_image = cv2.imread(pathImg, cv2.IMREAD_GRAYSCALE)
 
 # Create the SIFT detector
 sift = cv2.SIFT_create()
@@ -13,7 +16,7 @@ kp1, des1 = sift.detectAndCompute(reference_image, None)
 flann = cv2.FlannBasedMatcher()
 
 # Initialize a video capture object (you can also use cv2.VideoCapture(0) for live webcam feed)
-cap = cv2.VideoCapture('test_video.mp4')
+cap = cv2.VideoCapture(pathVid)
 
 while True:
     # Read a frame from the video
