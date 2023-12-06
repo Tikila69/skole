@@ -91,3 +91,4 @@ WHERE fact_stage_order.employeeID = dim_employee.employeeID;
 
 SELECT *
 FROM fact_stage_order;
+
